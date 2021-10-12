@@ -138,9 +138,21 @@ color: rgba(141, 54, 115, 0.397);
 }
 
 
+.aboutmountmanas{
+    padding-left: 218px;
+}
+
 .aboutcountry{
     padding-left:200px;
     padding-bottom: 5px;;
+}
+
+.aboutcountryPOK{
+    padding-left: 220px;
+}
+
+.aboutcountrynepal{
+    padding-left: 225px;
 }
 
                             /*details*/
