@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("wallpaper.jpg"); 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+    
+    
+}
+
+.heading{
+    margin-left: 500px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: larger;
+   
+
+}
+
+.text2{
+
+color: rgba(141, 54, 115, 0.397);
+
+
+}
+                /*containers*/
+.container1{
+    
+  position: absolute;
+  width: 200%;
+  max-width: 500px;
+  min-height: 550px;
+  margin: 50px;
+  background:white;
+    box-shadow:0.5px 0.5px 29px 9px rgba(0, 0, 0, 0.726);/*vertical horizontle blur spread*/
+    border-radius: 25px;
+    margin-left: 200px;
+}
+
+.container2{
+    
+    position: relative;
+    width: 200%;
+    max-width: 505px;
+    min-width: 100px;
+    min-height: 550px;
+    margin: 50px;
+    background:white;
+      box-shadow:0.5px 0.5px 29px 9px rgba(0, 0, 0, 0.726);/*vertical horizontle blur spread*/
+      border-radius: 25px;
+      margin-left: 800px;
+      margin-right: 500px;
+  }
+
+
+
+  .container3{
+
+    position: relative;
+    width: 200%;
+    max-width: 500px;
+    min-height: 550px;
+    margin: 50px;
+    margin-top: 100px;
+    background:white;
+      box-shadow:0.5px 0.5px 29px 9px rgba(0, 0, 0, 0.726);/*vertical horizontle blur spread*/
+      border-radius: 25px;
+      margin-left: 800px;
+      margin-right: 500px;
+  }
+
+
+                /*title*/
+  .titlemount{
+    position:relative;
+    
+  
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
+  margin: 10px 30% 5px 40%;
+  
+}
+
+.titlemount2{
+    position:relative;
+    
+    
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    padding:10px 30% 5px 40%;
+}
+
+                /*mount images*/
+.imger
+{
+    max-height:200px ;
+    padding-left:118px ;
+    max-width: 400px;
+    min-width: 100px;
+}
+
+
+    
+                            /*about */
+.aboutmount{
+    padding-left: 150px;
+}
+
+.aboutmountkanchan{
+    padding-right:60px ;
+    padding-left:120px ;
+
+}
+
+.aboutmountlhotse{
+    padding-left: 200px;
+}
+
+.aboutmountmakalu{
+    padding-left: 210px;
+}
+
+.aboutmountchoyo{
+    padding-left: 155px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+
+
+.aboutcountry{
+    padding-left:200px;
+    padding-bottom: 5px;;
+}
+
+                            /*details*/
+
+.details{
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.detailsof{
+    font-weight:500;
+    margin-left:10px;
+    padding-bottom:5px;
+    margin-right:10px;
+}
