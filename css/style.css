@@ -32,7 +32,7 @@ color: rgba(141, 54, 115, 0.397);
 
 
 }
-                /*containers*/
+  /*/////////////////////////////////////////////////////////////////////// CONTAINERS ///////////////////////////////////*/
 .container1{
     
   position: absolute;
@@ -79,7 +79,7 @@ color: rgba(141, 54, 115, 0.397);
   }
 
 
-                /*title*/
+      /*/////////////////////////////////////  TITLE   ///////////////////////////////////*/
   .titlemount{
     position:relative;
     
@@ -101,7 +101,20 @@ color: rgba(141, 54, 115, 0.397);
     padding:10px 30% 5px 40%;
 }
 
-                /*mount images*/
+
+.titlemountgas{
+    position:relative;
+    
+    
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    padding:10px 30% 5px 30%;
+    margin-left: 30px;
+    
+}
+
+     /*///////////////////////////////////////// MOUNT IMAGES ////////////////////////////////////////*/
 .imger
 {
     max-height:200px ;
@@ -112,7 +125,8 @@ color: rgba(141, 54, 115, 0.397);
 
 
     
-                            /*about */
+  /* //////////////////////////////////////////////////////// ABOUT MOUNT  /////////////////////////////////////////*/
+
 .aboutmount{
     padding-left: 150px;
 }
@@ -142,6 +156,26 @@ color: rgba(141, 54, 115, 0.397);
     padding-left: 218px;
 }
 
+.aboutmountgas{
+
+    padding-left: 188px;
+}
+
+.aboutmountbroad{
+    padding-left: 198px;
+}
+
+.aboutmountgas2{
+    padding-left: 155px ;
+}
+
+.aboutmountshisha{
+    padding-left: 170px;
+}
+
+
+
+/* ////////////////////////////////////////////////////////// ABOUT MOUNT COUNTRY //////////////////////////////////////////*/
 .aboutcountry{
     padding-left:200px;
     padding-bottom: 5px;;
@@ -155,7 +189,8 @@ color: rgba(141, 54, 115, 0.397);
     padding-left: 225px;
 }
 
-                            /*details*/
+
+ /* //////////////////////////////////////////////////// DETAILS //////////////////////////////////////////////////*/
 
 .details{
     font-weight: bold;
