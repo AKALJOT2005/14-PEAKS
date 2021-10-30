@@ -10,6 +10,10 @@
 </head>
 
 <body>
+  <div class="container" >
+   
+  </div>
+
 
   <div class="container1">
     <div class="mountain">
@@ -34,11 +38,6 @@
       as altitude sickness, weather, and wind, as well as signific <a href="https://en.wikipedia.org/wiki/Mount_Everest"
         target="blank">...know more</a></p>
   </div>
-
-
-
-
-
   <div class="container2">
     <div class="mountain">
       <h3 class="titlemount2">MOUNT <br>K2</h3>
@@ -393,6 +392,44 @@
 
 
 </body>
+<script type="text/javascript">
+  const mountains = [
+  {
+    id: 1,
+    name: "MOUNT EVEREST",
+    image: "images/everest.jpg"
+  },
+  { 
+    id: 2,
+    name: "MOUNT K2",
+    image: "images/k2.jfif"
+  },
+  { 
+    id: 3,
+    name: "Mount KANGCHENJUNGA",
+    image: "images/kanchan.jfif"
+  },
+  { 
+    id: 4,
+    name: "Mount LHOTSE",
+    image: "images/everest.jpg"
+  },
+  ];
+  const container = document.querySelector('.container');
+  mountains.forEach(k => {
+    const article = document.createElement("article");
+    const heading = document.createElement("h3");
+    const image = document.createElement("img");
+    image.src = k.image;
+    image.title = k.name;
+    image.alt = k.name;
+    image.classList = "imger";
+    heading.innerHTML = k.name;
+    article.append(heading);
+    article.append(image);
+    container.append(article);
+  });
+</script>
 
 
 
